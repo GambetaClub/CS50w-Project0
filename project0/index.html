@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PlayTogether!</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <style>
+            @media (max-width: 499px){
+                body {
+                  background-color: gray;
+                  }
+            }
+            body {
+                font-family: "San Francisco";
+                src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+                background-color: purple;
+            }
+            img {
+              width: 400px;
+            }
+            .center{
+              text-align: center;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+              #CreatedAnAccount {
+              font-style: italic;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1 class = "center" >PlayTogether!</h1>
+        <img src= StayAtHome.jpg alt= "StayAtHome" class= "center" width=70%>
+        <h3 class= "center" >This website will help you to find someone to play in the following sports/games </h3>
+
+        <div class="center">
+        <h4> If you haven't created an account, you can do it here! </h4>
+        <input type="text" placeholder= "Username">
+        <input type= "password" placeholder = "Password"> <button> <a href= signup.html >Sign Up!</button> </a>
+        <p id="CreatedAnAccount"><a href="login.html">Have you already created an account?</a><p>
+        </div>
+
+
+        <h3 class="center">Sports<h3>
+        <div class= "container">
+          <div class="row">
+              <div class="col-sm-6"><li>Soccer</li> <img src= Soccer.jpg alt= Soccer ></div>
+              <div class="col-sm-6"><li>Tennis</li> <img src= FedererWilly.jpg alt=Tennis ></div>
+              <div class="col-sm-6"> <li>Football</li> <img src= Football.jpg alt=Football ></div>
+              <div class="col-sm-6 col-md-offset-2"><li>Basketball</li> <img src= James.jfif alt=Basketball ></div>
+          </div>
+        </div>
+
+        <h3 class="center">Videogames<h3>
+        <div class= "container">
+          <div class="row">
+            <div class="col-sm-6"><li>Call of Duty: Warzone</li> <img src= CodWarzone.jpg alt= "Call of Duty: Warzone" ></div>
+            <div class="col-sm-6"><li>Fortnite</li> <img src= Fortnite.jpg alt= "Fortnite" ></div>
+            <div class="col-sm-6"><li>League of Legends</li> <img src= LOL.jpg alt= "League of Legends" ></div>
+            <div class="col-sm-6"><li>Counter Strike: Global Offensive</li> <img src= csgo.jfif alt= "Counter Strike: Global Offensive" ></div>
+            <div class="col-sm-6"><li>Minecraft</li> <img src= minecraft.jpg alt= "Minecraft" ></div>
+            <div class="col-sm-6"><li>Valorant</li> <img src= valorant.jpg alt= "Valorant" ></div></div></div>
+
+        <p> List of future sports available
+            <ul><li>Softball</li>
+            <li>Frisbee</li>
+            <li>Baseball</li>
+            <li>Rugby</li></ul>
+          </p>
+
+          <h3>You can play with the following players!</h3>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Platform</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>PlayStation</td>
+                <td>Mariano</td>
+                <td>Jalif</td>
+                <td>MariHD</td>
+              </tr>
+            </tbody>
+          </table>
+
+        <p> Do you want to know what the best game ever is for us? <a href= https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/> Click here!</a></p>
+
+    </body>
+</html>
